@@ -100,14 +100,15 @@ const products = [
     price: 2099,
     rating: 4.8,
     image: "https://i.ibb.co/jvq70kbG/hoodie-2.jpg"
- {
+{
   id: 13,
   name: "Oversized Hoodie",
   category: "hoodies",
   price: 1699,
   rating: 4.5,
-  image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=400&fit=crop&auto=format"
+  image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&h=500&fit=crop"
 },
+
   {
     id: 14,
     name: "Graphic Hoodie",
