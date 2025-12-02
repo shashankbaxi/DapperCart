@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import ProductCard from "./components/ProductCard";
 import LoginModal from "./components/LoginModal";
 import "./index.css";
-// Temporary inline products data
+
+// Products array - directly in App.jsx
 const products = [
   {
     id: 1,
@@ -10,7 +11,7 @@ const products = [
     category: "shirts",
     price: 1299,
     rating: 4.5,
-    image: "src/assets/shirt-1.jpg"
+    image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=400&fit=crop"
   },
   {
     id: 2,
@@ -18,15 +19,15 @@ const products = [
     category: "shirts",
     price: 999,
     rating: 4.2,
-    image: "src/assets/shirt-2.jpg"
+    image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400&h=400&fit=crop"
   },
   {
     id: 3,
     name: "Linen Formal Shirt",
     category: "shirts",
     price: 1499,
-    rating: 4.8,
-    image: "src/assets/shirt-3.jpg"
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?w=400&h=400&fit=crop"
   },
   {
     id: 4,
@@ -34,7 +35,7 @@ const products = [
     category: "shirts",
     price: 1199,
     rating: 4.4,
-    image: "src/assets/shirt-4.jpg"
+    image: "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=400&h=400&fit=crop"
   },
   {
     id: 5,
@@ -42,7 +43,7 @@ const products = [
     category: "shirts",
     price: 799,
     rating: 4.3,
-    image: "src/assets/shirt-5.jpg"
+    image: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=400&h=400&fit=crop"
   },
   {
     id: 6,
@@ -50,7 +51,7 @@ const products = [
     category: "pants",
     price: 1999,
     rating: 4.7,
-    image: "src/assets/pant-1.jpg"
+    image: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop"
   },
   {
     id: 7,
@@ -58,7 +59,7 @@ const products = [
     category: "pants",
     price: 1799,
     rating: 4.6,
-    image: "src/assets/pant-2.jpg"
+    image: "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400&h=400&fit=crop"
   },
   {
     id: 8,
@@ -66,15 +67,15 @@ const products = [
     category: "pants",
     price: 1599,
     rating: 4.4,
-    image: "src/assets/pant-3.jpg"
+    image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400&h=400&fit=crop"
   },
   {
     id: 9,
     name: "Formal Trousers",
     category: "pants",
     price: 2299,
-    rating: 4.9,
-    image: "src/assets/pant-4.jpg"
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&h=400&fit=crop"
   },
   {
     id: 10,
@@ -82,47 +83,47 @@ const products = [
     category: "pants",
     price: 1399,
     rating: 4.5,
-    image: "src/assets/pant-5.jpg"
+    image: "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=400&h=400&fit=crop"
   },
   {
     id: 11,
-    name: "Classic Hoodie ",
+    name: "Classic Hoodie",
     category: "hoodies",
     price: 1899,
     rating: 4.6,
-    image: "src/assets/hoodie-1.jpg"
+    image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=400&fit=crop"
   },
   {
     id: 12,
     name: "Zip Hoodie",
     category: "hoodies",
     price: 2099,
-    rating: 4.8,
-    image: "src/assets/hoodie-2.jpg"
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&h=400&fit=crop"
   },
   {
     id: 13,
     name: "Oversized Hoodie",
     category: "hoodies",
-    price: 1999,
-    rating: 4.6,
-    image: "src/assets/hoodie-3.jpg"
+    price: 1699,
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=400&h=400&fit=crop"
   },
   {
     id: 14,
     name: "Graphic Hoodie",
     category: "hoodies",
     price: 1999,
-    rating: 4.5,
-    image: "src/assets/hoodie-4.jpg"
+    rating: 4.4,
+    image: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=400&h=400&fit=crop"
   },
   {
     id: 15,
     name: "Analog Steel Watch",
     category: "watches",
     price: 2999,
-    rating: 4.7,
-    image: "src/assets/watch-1.jpg"
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=400&fit=crop"
   },
   {
     id: 16,
@@ -130,7 +131,7 @@ const products = [
     category: "watches",
     price: 2499,
     rating: 4.7,
-    image: "src/assets/watch-2.jpg"
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop"
   },
   {
     id: 17,
@@ -138,7 +139,7 @@ const products = [
     category: "watches",
     price: 3999,
     rating: 4.6,
-    image: "src/assets/watch-3.jpg"
+    image: "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400&h=400&fit=crop"
   },
   {
     id: 18,
@@ -146,7 +147,7 @@ const products = [
     category: "shoes",
     price: 2799,
     rating: 4.7,
-    image: "src/assets/shoes-1.jpg"
+    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop"
   },
   {
     id: 19,
@@ -154,7 +155,7 @@ const products = [
     category: "shoes",
     price: 3499,
     rating: 4.8,
-    image: "src/assets/shoes-2.jpg"
+    image: "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=400&h=400&fit=crop"
   },
   {
     id: 20,
@@ -162,7 +163,7 @@ const products = [
     category: "shoes",
     price: 3199,
     rating: 4.6,
-    image: "src/assets/shoes-3.jpg"
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop"
   },
   {
     id: 21,
@@ -170,7 +171,7 @@ const products = [
     category: "shoes",
     price: 4499,
     rating: 4.9,
-    image: "src/assets/shoes-4.jpg"
+    image: "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=400&h=400&fit=crop"
   }
 ];
 
@@ -294,7 +295,6 @@ function App() {
     return <div className="loading-screen">✨ Loading DapperCart...</div>;
   }
 
-  // WELCOME PAGE
   if (!entered) {
     return (
       <div className={`app ${theme}`}>
@@ -314,10 +314,8 @@ function App() {
     );
   }
 
-  // MAIN APP
   return (
     <div className={`app ${theme} main-app-enter`}>
-      {/* HEADER */}
       <header className="header">
         <div className="header-left">
           <h1 className="logo">🛍️ DapperCart</h1>
@@ -418,7 +416,6 @@ function App() {
         </div>
       )}
 
-      {/* MAIN CONTENT - FULL WIDTH */}
       <main className="main-content-full">
         <section className="products-section-full">
           <div className="controls-card">
@@ -480,7 +477,6 @@ function App() {
         </section>
       </main>
 
-      {/* FOOTER */}
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-section">
@@ -523,7 +519,6 @@ function App() {
         </div>
       </footer>
 
-      {/* CART POPUP PANEL */}
       {showCartPanel && (
         <div className="cart-overlay" onClick={() => setShowCartPanel(false)}>
           <div
@@ -605,7 +600,6 @@ function App() {
         </div>
       )}
 
-      {/* CHECKOUT MODAL */}
       {showCheckout && (
         <div
           className="checkout-overlay"
@@ -622,9 +616,7 @@ function App() {
             <h2 className="checkout-title">🔒 Secure Checkout</h2>
 
             <div className="checkout-content">
-              {/* LEFT SIDE - FORM */}
               <div className="checkout-left">
-                {/* CONTACT INFO */}
                 <div className="checkout-section">
                   <h3 className="section-title">📧 Contact Information</h3>
                   <input
@@ -638,7 +630,6 @@ function App() {
                   </label>
                 </div>
 
-                {/* SHIPPING ADDRESS */}
                 <div className="checkout-section">
                   <h3 className="section-title">🚚 Shipping Address</h3>
                   <div className="input-row">
@@ -691,7 +682,6 @@ function App() {
                   />
                 </div>
 
-                {/* SHIPPING METHOD */}
                 <div className="checkout-section">
                   <h3 className="section-title">📦 Shipping Method</h3>
                   <div className="shipping-options">
@@ -724,7 +714,6 @@ function App() {
                   </div>
                 </div>
 
-                {/* PAYMENT METHOD */}
                 <div className="checkout-section">
                   <h3 className="section-title">💳 Payment Method</h3>
                   <div className="payment-methods">
@@ -770,7 +759,6 @@ function App() {
                 </div>
               </div>
 
-              {/* RIGHT SIDE - ORDER SUMMARY */}
               <div className="checkout-right">
                 <div className="order-summary">
                   <h3 className="summary-title">📋 Order Summary</h3>
