@@ -107,7 +107,7 @@ const products = [
     category: "hoodies",
     price: 1999,
     rating: 4.6,
-    image: "https://i.ibb.co/gLqPzkJC/hoodie-3.jpg"
+    image: "src/assets/hoodie-3.jpg"
   },
   {
     id: 14,
