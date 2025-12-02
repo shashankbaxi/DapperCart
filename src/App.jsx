@@ -106,7 +106,7 @@ const products = [
   category: "hoodies",
   price: 1699,
   rating: 4.5,
-  image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&h=500&fit=crop"
+  image: "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=400&h=500&fit=crop"
 },
 
   {
