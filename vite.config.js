@@ -3,6 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  publicDir: 'public',  // ← Add this line
+  assetsInclude: ['**/*.jpg', '**/*.png', '**/*.jpeg'],
 })
-
