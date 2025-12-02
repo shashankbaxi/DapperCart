@@ -14,7 +14,7 @@ export const products = [
     category: "shirts",
     price: 999,
     rating: 4.2,
-    image: "https://i.ibb.co/DHw8J6wY/shirt-2.jpg",
+    image: "https://i.ibb.co/DHw8J6w/shirt-2.jpg",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ export const products = [
     category: "shirts",
     price: 1499,
     rating: 4.7,
-    image: "https://i.ibb.co/Fq3HPZMy/shirt-3.jpg",
+    image: "https://i.ibb.co/Fq3HPZM/shirt-3.jpg",
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ export const products = [
     category: "shirts",
     price: 1199,
     rating: 4.4,
-    image: "https://i.ibb.co/CKgcJn27/shirt-4.jpg",
+    image: "https://i.ibb.co/CKgcJn2/shirt-4.jpg",
   },
   {
     id: 5,
@@ -38,8 +38,9 @@ export const products = [
     category: "shirts",
     price: 799,
     rating: 4.3,
-    image: "https://i.ibb.co/1tFJwC0q/shirt-5.jpg",
+    image: "https://i.ibb.co/1tFJwC0/shirt-5.jpg",
   },
+
 
   // 👖 PANTS (5 products)
   {
@@ -48,7 +49,7 @@ export const products = [
     category: "pants",
     price: 1999,
     rating: 4.7,
-    image: "https://i.ibb.co/pvvQx5zK/pant-1.jpg",
+    image: "https://i.ibb.co/pvvQx5z/pant-1.jpg",
   },
   {
     id: 7,
@@ -56,7 +57,7 @@ export const products = [
     category: "pants",
     price: 1799,
     rating: 4.6,
-    image: "https://i.ibb.co/FkJsnYF6/pant-2.jpg",
+    image: "https://i.ibb.co/FkJsnYF/pant-2.jpg",
   },
   {
     id: 8,
@@ -64,7 +65,7 @@ export const products = [
     category: "pants",
     price: 1599,
     rating: 4.4,
-    image: "https://i.ibb.co/Y7kYk4fD/pant-3.jpg",
+    image: "https://i.ibb.co/Y7kYk4f/pant-3.jpg",
   },
   {
     id: 9,
@@ -72,7 +73,7 @@ export const products = [
     category: "pants",
     price: 2299,
     rating: 4.8,
-    image: "https://i.ibb.co/Gfzw00Xk/pant-4.jpg",
+    image: "https://i.ibb.co/Gfzw00X/pant-4.jpg",
   },
   {
     id: 10,
@@ -80,8 +81,9 @@ export const products = [
     category: "pants",
     price: 1399,
     rating: 4.5,
-    image: "https://i.ibb.co/k2sYrkc1/pant-5.jpg",
+    image: "https://i.ibb.co/k2sYrkc/pant-5.jpg",
   },
+
 
   // 🧥 HOODIES (4 products)
   {
@@ -90,7 +92,7 @@ export const products = [
     category: "hoodies",
     price: 1899,
     rating: 4.6,
-    image: "https://i.ibb.co/k2F732sM/hoodie-1.jpg",
+    image: "https://i.ibb.co/k2F732s/hoodie-1.jpg",
   },
   {
     id: 12,
@@ -98,7 +100,7 @@ export const products = [
     category: "hoodies",
     price: 2099,
     rating: 4.7,
-    image: "https://i.ibb.co/jvq70kbG/hoodie-2.jpg",
+    image: "https://i.ibb.co/jvq70kb/hoodie-2.jpg",
   },
   {
     id: 13,
@@ -106,7 +108,7 @@ export const products = [
     category: "hoodies",
     price: 1699,
     rating: 4.5,
-    image: "https://i.ibb.co/gLqPzkJC/hoodie-3.jpg",
+    image: "https://i.ibb.co/gLqPzkJ/hoodie-3.jpg",
   },
   {
     id: 14,
@@ -114,8 +116,9 @@ export const products = [
     category: "hoodies",
     price: 1999,
     rating: 4.4,
-    image: "https://i.ibb.co/7dF6FQTk/hoodie-4.jpg",
+    image: "https://i.ibb.co/7dF6FQT/hoodie-4.jpg",
   },
+
 
   // ⌚ WATCHES (3 products)
   {
@@ -124,7 +127,7 @@ export const products = [
     category: "watches",
     price: 2999,
     rating: 4.8,
-    image: "https://i.ibb.co/230N8607/watch-1.jpg",
+    image: "https://i.ibb.co/230N860/watch-1.jpg",
   },
   {
     id: 16,
@@ -132,7 +135,7 @@ export const products = [
     category: "watches",
     price: 2499,
     rating: 4.7,
-    image: "https://i.ibb.co/Q3yNc57L/watch-2.jpg",
+    image: "https://i.ibb.co/Q3yNc57/watch-2.jpg",
   },
   {
     id: 17,
@@ -140,8 +143,9 @@ export const products = [
     category: "watches",
     price: 3999,
     rating: 4.6,
-    image: "https://i.ibb.co/PG7Dk6TK/watch-3.jpg",
+    image: "https://i.ibb.co/PG7Dk6T/watch-3.jpg",
   },
+
 
   // 👟 SHOES (4 products)
   {
@@ -150,7 +154,7 @@ export const products = [
     category: "shoes",
     price: 2799,
     rating: 4.7,
-    image: "https://i.ibb.co/Q7n4D608/shoes-1.jpg",
+    image: "https://i.ibb.co/Q7n4D60/shoes-1.jpg",
   },
   {
     id: 19,
@@ -158,7 +162,7 @@ export const products = [
     category: "shoes",
     price: 3499,
     rating: 4.8,
-    image: "https://i.ibb.co/LX9mm9xH/shoes-2.jpg",
+    image: "https://i.ibb.co/LX9mm9x/shoes-2.jpg",
   },
   {
     id: 20,
@@ -166,7 +170,7 @@ export const products = [
     category: "shoes",
     price: 3199,
     rating: 4.6,
-    image: "https://i.ibb.co/Wvr5tQBr/shoes-3.jpg",
+    image: "https://i.ibb.co/Wvr5tQB/shoes-3.jpg",
   },
   {
     id: 21,
@@ -174,6 +178,6 @@ export const products = [
     category: "shoes",
     price: 4499,
     rating: 4.9,
-    image: "https://i.ibb.co/tMHb9fNR/shoes-4.jpg",
+    image: "https://i.ibb.co/tMHb9fN/shoes-4.jpg",
   },
 ];
