@@ -100,6 +100,7 @@ const products = [
     price: 2099,
     rating: 4.8,
     image: "https://i.ibb.co/jvq70kbG/hoodie-2.jpg"
+  }
 {
   id: 13,
   name: "Oversized Hoodie",
