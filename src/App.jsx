@@ -107,7 +107,7 @@ const products = [
     category: "hoodies",
     price: 1999,
     rating: 4.6,
-    image: "https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmen%27s-oversize-hoodie%3Forientation%3Dlandscape&utm_term=men%27s+oversize+hoodie%3A%3Abottom-affiliates-3col%3Aexperiment&phrase=men%27s+oversize+hoodie&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography"
+    image: "https://i.ibb.co/gLqPzkJC/hoodie-3.jpg"
   },
   {
     id: 14,
