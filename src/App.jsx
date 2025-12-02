@@ -93,23 +93,22 @@ const products = [
     rating: 4.6,
     image: "https://i.ibb.co/k2F732sM/hoodie-1.jpg"
   },
-  {
-    id: 12,
-    name: "Zip Hoodie",
-    category: "hoodies",
-    price: 2099,
-    rating: 4.8,
-    image: "https://i.ibb.co/jvq70kbG/hoodie-2.jpg"
-  },
+ {
+  id: 12,
+  name: "Zip Hoodie",
+  category: "hoodies",
+  price: 2099,
+  rating: 4.7,
+  image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=500&fit=crop"
+},  // ← Make sure comma is here!
 {
   id: 13,
   name: "Oversized Hoodie",
   category: "hoodies",
   price: 1699,
   rating: 4.5,
-  image: "https://i.ibb.co/gLqPzkJC/hoodie-3.jpg"
+  image: "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=400&h=500&fit=crop"
 },
-
 
   {
     id: 14,
