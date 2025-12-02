@@ -10,7 +10,7 @@ const products = [
     category: "shirts",
     price: 1299,
     rating: 4.5,
-    image: "src/assets/shirt-1.jpg"
+    image: "public/assets/shirt-1.jpg"
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const products = [
     category: "shirts",
     price: 999,
     rating: 4.2,
-    image: "src/assets/shirt-2.jpg"
+    image: "public/assets/shirt-2.jpg"
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const products = [
     category: "shirts",
     price: 1499,
     rating: 4.8,
-    image: "src/assets/shirt-3.jpg"
+    image: "public/assets/shirt-3.jpg"
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const products = [
     category: "shirts",
     price: 1199,
     rating: 4.4,
-    image: "src/assets/shirt-4.jpg"
+    image: "public/assets/shirt-4.jpg"
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const products = [
     category: "shirts",
     price: 799,
     rating: 4.3,
-    image: "src/assets/shirt-5.jpg"
+    image: "public/assets/shirt-5.jpg"
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ const products = [
     category: "pants",
     price: 1999,
     rating: 4.7,
-    image: "src/assets/pant-1.jpg"
+    image: "public/assets/pant-1.jpg"
   },
   {
     id: 7,
@@ -58,7 +58,7 @@ const products = [
     category: "pants",
     price: 1799,
     rating: 4.6,
-    image: "src/assets/pant-2.jpg"
+    image: "public/assets/pant-2.jpg"
   },
   {
     id: 8,
@@ -66,7 +66,7 @@ const products = [
     category: "pants",
     price: 1599,
     rating: 4.4,
-    image: "src/assets/pant-3.jpg"
+    image: "public/assets/pant-3.jpg"
   },
   {
     id: 9,
@@ -74,7 +74,7 @@ const products = [
     category: "pants",
     price: 2299,
     rating: 4.9,
-    image: "src/assets/pant-4.jpg"
+    image: "public/assets/pant-4.jpg"
   },
   {
     id: 10,
@@ -82,7 +82,7 @@ const products = [
     category: "pants",
     price: 1399,
     rating: 4.5,
-    image: "src/assets/pant-5.jpg"
+    image: "public/assets/pant-5.jpg"
   },
   {
     id: 11,
@@ -90,7 +90,7 @@ const products = [
     category: "hoodies",
     price: 1899,
     rating: 4.6,
-    image: "src/assets/hoodie-1.jpg"
+    image: "public/assets/hoodie-1.jpg"
   },
   {
     id: 12,
@@ -98,7 +98,7 @@ const products = [
     category: "hoodies",
     price: 2099,
     rating: 4.8,
-    image: "src/assets/hoodie-2.jpg"
+    image: "public/assets/hoodie-2.jpg"
   },
   {
     id: 13,
@@ -106,7 +106,7 @@ const products = [
     category: "hoodies",
     price: 1999,
     rating: 4.6,
-    image: "src/assets/hoodie-3.jpg"
+    image: "public/assets/hoodie-3.jpg"
   },
   {
     id: 14,
@@ -114,7 +114,7 @@ const products = [
     category: "hoodies",
     price: 1999,
     rating: 4.5,
-    image: "src/assets/hoodie-4.jpg"
+    image: "public/assets/hoodie-4.jpg"
   },
   {
     id: 15,
@@ -122,7 +122,7 @@ const products = [
     category: "watches",
     price: 2999,
     rating: 4.7,
-    image: "src/assets/watch-1.jpg"
+    image: "public/assets/watch-1.jpg"
   },
   {
     id: 16,
@@ -130,7 +130,7 @@ const products = [
     category: "watches",
     price: 2499,
     rating: 4.7,
-    image: "src/assets/watch-2.jpg"
+    image: "public/assets/watch-2.jpg"
   },
   {
     id: 17,
@@ -138,7 +138,7 @@ const products = [
     category: "watches",
     price: 3999,
     rating: 4.6,
-    image: "src/assets/watch-3.jpg"
+    image: "public/assets/watch-3.jpg"
   },
   {
     id: 18,
@@ -146,7 +146,7 @@ const products = [
     category: "shoes",
     price: 2799,
     rating: 4.7,
-    image: "src/assets/shoes-1.jpg"
+    image: "public/assets/shoes-1.jpg"
   },
   {
     id: 19,
@@ -154,7 +154,7 @@ const products = [
     category: "shoes",
     price: 3499,
     rating: 4.8,
-    image: "src/assets/shoes-2.jpg"
+    image: "public/assets/shoes-2.jpg"
   },
   {
     id: 20,
@@ -162,7 +162,7 @@ const products = [
     category: "shoes",
     price: 3199,
     rating: 4.6,
-    image: "src/assets/shoes-3.jpg"
+    image: "public/assets/shoes-3.jpg"
   },
   {
     id: 21,
@@ -170,7 +170,7 @@ const products = [
     category: "shoes",
     price: 4499,
     rating: 4.9,
-    image: "src/assets/shoes-4.jpg"
+    image: "public/assets/shoes-4.jpg"
   }
 ];
 
