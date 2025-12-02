@@ -30,14 +30,14 @@ const products = [
     rating: 4.7,
     image: "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?w=400&h=500&fit=crop"
   },
-  {
-    id: 4,
-    name: "Flannel Check Shirt",
-    category: "shirts",
-    price: 1199,
-    rating: 4.4,
-    image: "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=400&h=500&fit=crop"
-  },
+ {
+  id: 4,
+  name: "Flannel Check Shirt",
+  category: "shirts",
+  price: 1199,
+  rating: 4.4,
+  image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400&h=500&fit=crop"
+},
   {
     id: 5,
     name: "Polo T-Shirt",
@@ -73,13 +73,13 @@ const products = [
     image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400&h=500&fit=crop"
   },
   {
-    id: 9,
-    name: "Formal Trousers",
-    category: "pants",
-    price: 2299,
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&h=500&fit=crop"
-  },
+  id: 9,
+  name: "Formal Trousers",
+  category: "pants",
+  price: 2299,
+  rating: 4.8,
+  image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=500&fit=crop"
+},
   {
     id: 10,
     name: "Jogger Pants",
@@ -99,29 +99,29 @@ const products = [
     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=500&fit=crop"
   },
   {
-    id: 12,
-    name: "Zip Hoodie",
-    category: "hoodies",
-    price: 2099,
-    rating: 4.7,
-    image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&h=500&fit=crop"
-  },
+  id: 12,
+  name: "Zip Hoodie",
+  category: "hoodies",
+  price: 2099,
+  rating: 4.7,
+  image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=500&fit=crop"
+},
   {
-    id: 13,
-    name: "Oversized Hoodie",
-    category: "hoodies",
-    price: 1699,
-    rating: 4.5,
-    image: "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=400&h=500&fit=crop"
-  },
+  id: 13,
+  name: "Oversized Hoodie",
+  category: "hoodies",
+  price: 1699,
+  rating: 4.5,
+  image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=500&fit=crop"
+},
   {
-    id: 14,
-    name: "Graphic Hoodie",
-    category: "hoodies",
-    price: 1999,
-    rating: 4.4,
-    image: "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=400&h=500&fit=crop"
-  },
+  id: 14,
+  name: "Graphic Hoodie",
+  category: "hoodies",
+  price: 1999,
+  rating: 4.4,
+  image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&h=500&fit=crop"
+},
 
   // ⌚ WATCHES (3 products)
   {
