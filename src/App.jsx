@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { products } from "./data/products.js";
-
+import { products } from "@/data/products.js";
 import ProductCard from "./components/ProductCard";
 import LoginModal from "./components/LoginModal";
 import "./index.css";
