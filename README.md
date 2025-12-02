@@ -1,7 +1,7 @@
 
 ---
 
-## 📱 Responsive Breakpoints
+## 📱   Responsive Breakpoints
 
 | Breakpoint | Max Width | Target |
 |------------|-----------|--------|
