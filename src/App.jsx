@@ -107,7 +107,7 @@ const products = [
     category: "hoodies",
     price: 1999,
     rating: 4.6,
-    image: "https://i.ibb.co/gLqPzkJC/hoodie-3.jpg"
+    image: "https://unsplash.com/photos/a-man-sitting-on-a-wooden-bench-in-a-park-h0BN2Q9Kkpg"
   },
   {
     id: 14,
