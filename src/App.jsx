@@ -101,14 +101,13 @@ const products = [
     rating: 4.8,
     image: "https://i.ibb.co/jvq70kbG/hoodie-2.jpg"
   },
-  {
-    id: 13,
-    name: "Oversized Hoodie",
-    category: "hoodies",
-    price: 1999,
-    rating: 4.6,
-    image: "https://unsplash.com/photos/a-man-sitting-on-a-wooden-bench-in-a-park-h0BN2Q9Kkpg"
-  },
+  id: 13,
+  name: "Oversized Hoodie",
+  category: "hoodies",
+  price: 1699,
+  rating: 4.5,
+  image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=500&fit=crop"
+},
   {
     id: 14,
     name: "Graphic Hoodie",
